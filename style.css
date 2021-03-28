@@ -1,3 +1,9 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 .image {
     height: auto;
     display: block;
@@ -19,6 +25,7 @@
     text-align: center;
     margin:0 auto;
     font-weight: bold;
+    color: white;
 }
 
 .text {
@@ -26,6 +33,8 @@
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
+    color: white;
+    line-height: 5vw;
 }
 
 .parent{
@@ -35,6 +44,7 @@
 
 .first{
     margin-top: 10vw;
+    margin-bottom: 15vw;
 }
 
 .last{
@@ -42,7 +52,7 @@
 }
 
 .border{
-    border-top: 1px solid white;
+    border-top: 0.1vw solid white;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -94,4 +104,5 @@
     text-align: center;
     letter-spacing: 3vw;
     font-size: 4vw;
+    color: white;
 }
