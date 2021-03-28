@@ -1,0 +1,97 @@
+.image {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vw;
+}
+
+.color{
+    background: linear-gradient(90deg, rgba(30,43,55,1) 10%, rgba(60,86,110,1) 50%, rgba(30,43,55,1) 90%);
+    margin: 0;
+}
+
+.number{
+    font-family: Arial, sans-serif;
+    font-size: 50vw;
+    display: block;
+    opacity: 0.2;
+    text-align: center;
+    margin:0 auto;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 4.5vw;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.parent{
+    position: relative;
+    margin-bottom: 10vw;
+}
+
+.first{
+    margin-top: 10vw;
+}
+
+.last{
+    margin-bottom: 10;
+}
+
+.border{
+    border-top: 1px solid white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.childNumber{
+    position: absolute;
+}
+
+.childText{
+    position: absolute;
+    margin-top: -22vw;
+    padding-bottom: 0;
+}
+
+.button{
+    text-align: center;
+    font-size: 1rem;
+    background-color: yellow;
+    color: rgba(30,43,55,1);
+    font-weight: bold;
+    font-size: 7vw;
+    border-radius: 0.5rem;
+    width: 70vw;
+    height: 15vw;
+    margin-top: 10vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vw;
+  }
+
+
+.parentSubtitle{
+    position: relative;
+    margin-bottom: 0vw;
+}
+.childSubtitle{
+    position: absolute;
+    margin-top: -10vw;
+    padding-bottom: 0;
+    width: 100vw;
+}  
+
+.textSubtitle{
+    text-align: center;
+    letter-spacing: 3vw;
+    font-size: 4vw;
+}
