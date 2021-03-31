@@ -50,6 +50,7 @@ html, body{
 .parent{
     position: relative;
     margin-bottom: 10vw;
+    margin-top: 10vw;
 }
 
 .first{
@@ -85,7 +86,8 @@ html, body{
     color: rgba(30,43,55,1);
     font-weight: bold;
     font-size: 7vw;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
+    border: none;
     width: 70vw;
     height: 15vw;
     margin-top: 10vw;
@@ -115,4 +117,8 @@ html, body{
     letter-spacing: 3vw;
     font-size: 4vw;
     color: white;
+}
+
+.highlighted {
+    color: yellow;
 }
